@@ -137,12 +137,12 @@ nav{
     width: 40%; 
     height: 50%;   
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     
- }
+ } 
 
- .hero_text h1{
+ .container h1{
   font-size: 100px;
   margin-bottom: 20px;
   
