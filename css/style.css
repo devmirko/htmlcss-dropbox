@@ -1,0 +1,112 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Open Sans, sans serif;
+}
+
+/* classi generaLI */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;  
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+
+}
+/* bottoni */
+.btn{
+    line-height: normal;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+}
+.btn_blu{
+    background-color:  #084EC0;
+    color: white;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/* STILE DELLA TESTATA */
+header{
+    height: 400px;
+    /* debugger */
+    background-color: red;
+}
+
+/* barra di navigazione */
+
+nav{
+    height: 80px;
+    width: 100%;
+    /* debugger */
+    background-color: white;
+    line-height: 80px;
+}
+
+.logo_container{
+    width: 10%;
+    height: 100%;
+    float: left;
+    /* debugger */
+    /* background-color: blue; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.row_container{
+    width: 90%;
+    height: 100%;
+    float: left;
+    /* debugger */
+    /* background-color: yellow; */
+    vertical-align: middle;
+}
+
+.nav_left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* debugger */
+    /* background-color: aqua; */
+}
+
+.nav_right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    /* debugger */
+    /* background-color: blueviolet; */
+}
+
+.nav_space{
+    display: inline-block;
+    margin-right: 80px;
+    
+}
+
+.style_link{
+    font-size: 20px;
+    text-decoration: none;
+   
+
+}
+
+
