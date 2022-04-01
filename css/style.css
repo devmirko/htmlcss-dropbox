@@ -50,6 +50,15 @@ body{
     /* debugger */
     margin-bottom: 20px;
 }
+/* colori */
+.blu{
+    color: #2074FF;
+}
+/* distanziamento */
+
+.margin{
+    margin: 20px 0;
+}
 
 /* STILE DELLA TESTATA */
 header{
@@ -124,7 +133,7 @@ nav{
      background-color: #B4D0E7;
  }
 
- .container{
+ .container_big{
      width: 80%;
      margin: 0 auto;
      /* debugger */
@@ -142,7 +151,7 @@ nav{
     
  } 
 
- .container h1{
+ .container_big h1{
   font-size: 100px;
   margin-bottom: 20px;
   
@@ -168,5 +177,66 @@ nav{
     
  }
 
+ /* stile corpo */
+ /* piano abbbonamento */
+ .piano_abbonamento{
+     margin-top: 200px;
+ }
 
+ .container_small{
+     width: 60%;
+     /* height: 800px; */
+     margin: 0 auto;
+     /* debugger */
+     /* background-color: red; */
+        
+ }
+
+ .section_title{
+     font-size: 50px;
+     margin-bottom: 20px;
+ }
+
+ /* stile colonne */
+
+ .col{
+     margin-right: 30px;
+     width: calc(100%/3 - 30px);
+     float: left;
+     height: 1000px;
+     border: 1px solid black;
+     /* debugger */
+     /* background-color: blue; */
+ }
+
+ .testata{
+     text-align: center;
+     width: 100%;
+     height: 50px;
+     border-bottom: 1px solid black;
+     line-height: 50px;
+     
+}
+
+.col_body{
+    padding: 20px;
+}
+
+.col_title{
+    font-size: 28px;
+}
+
+.awesome{
+    margin-right: 10px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.distance{
+    width: 30%;
+    border: 1px solid black;
+    margin: 20px 0;
+}
 
