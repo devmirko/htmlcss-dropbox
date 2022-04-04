@@ -239,6 +239,7 @@ nav{
 
 ul li {
     list-style-type: none;
+    text-decoration: none;
 }
 
 .distance{
@@ -381,6 +382,7 @@ ul li {
     text-align: center;
     line-height: 400px;
 }
+/* stile domande frequenti */
 
 .row_faq{
     width: 100%;
@@ -396,3 +398,42 @@ ul li {
 .arrow{
     margin-right: 20px;
 }
+
+/* stile footer */
+
+footer{
+    background-color: #000000;
+   
+}
+
+.footer_list{
+    padding: 30px 0;
+
+}
+
+.col_footer{
+    width: 20%;
+    height: 100%;
+
+}
+.footer_title{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.col_footer ul li a {
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   margin-bottom: 20px;
+   display: block;
+}
+
+.change_linguage{
+    width: 10%;
+    color: #ccc;
+    height: 100%;
+    border-top: 1px solid white;
+    padding: 30px 0;
+}
+
