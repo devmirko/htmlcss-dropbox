@@ -22,6 +22,10 @@ body{
 
 }
 
+.row_max{
+    height: 100%;
+}
+
 /* bottoni */
 .btn{
     line-height: normal;
@@ -64,6 +68,16 @@ body{
 
 .margin{
     margin: 20px 0;
+}
+.margin_x2{
+    margin: 40px 0;;
+}
+
+.centratura{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 /* STILE DELLA TESTATA */
@@ -247,8 +261,8 @@ ul li {
 }
 
 .distance{
-    width: 30%;
-    border: 1px solid black;
+    width: 15%;
+    border: 1px solid #ccc;
     margin: 20px 0;
 }
 
@@ -261,11 +275,6 @@ ul li {
     
 }
 
-.support_top{
-   border-bottom: 1px solid black;
-   padding: 20px 0;
-   text-align: center;
-}
 
 .support_body{
     padding: 20px;
@@ -321,9 +330,7 @@ ul li {
  /* max-height: 1180px; */
 }
 
-.row_carousel{
-    height: 100%;
-}
+
 
 .col_small{
     width: 15%;
@@ -332,39 +339,30 @@ ul li {
     
 }
 
+
 .col_big{
     width: 40%;
     height: 100%;
-    background-color: #F5F5F5;
-    
-}
-
-.top_container{
-    width: 100%;
-    height: calc(100%/2);
     padding: 50px;
     
-
 }
 
-.top_container img{
-    width: 100%;
-    height: 100%;
-    
+.logo_carousel{
+    width: 150px;
+    height: 150px;
 }
 
-.bottom_container{
+.box_logo{
     width: 100%;
     height: calc(100%/2);
-    padding: 50px;
+    position: relative;
     
 
 }
 
-.bottom_container img{
-    width: 100%;
-    height: 100%;
-    
+.box_logo:hover{
+    outline-offset: solid 5px white;
+    border: solid 5px white;
 }
 
 /* colori carousel */
@@ -377,19 +375,32 @@ ul li {
 #celeste{background-color: #B4D0E7;}
 #giallo{background-color: #FFD830;}
 
+.row_botton_carousel{
+    width: 100%;
+    
+}
+
 .carousel_left{
     width: 50%;
-    height: 100%;
-    text-align: center;
-    line-height: 400px;
+    height: 400px;
+    position: relative;
+    
 }
 
 .carousel_right{
     width: 50%;
-    height: 100%;
+    height: 400px;
     text-align: center;
     line-height: 400px;
 }
+
+.carousel_text{
+    width: 100%;
+    color: #61082B;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
 /* stile domande frequenti */
 
 .row_faq{
