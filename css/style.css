@@ -92,6 +92,7 @@ nav{
     width: 100%;
     background-color: white;
     line-height: 80px;
+    position: fixed;
 }
 
 .logo_container{
@@ -371,6 +372,7 @@ ul li {
 #blu{background-color: #0D2481;}
 #celeste{background-color: #B4D0E7;}
 #giallo{background-color: #FFD830;}
+#gray{background-color: #ccc;}
 
 .row_botton_carousel{
     width: 100%;
