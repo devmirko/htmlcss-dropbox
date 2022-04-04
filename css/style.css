@@ -90,7 +90,6 @@ header{
 nav{
     height: 80px;
     width: 100%;
-    /* debugger */
     background-color: white;
     line-height: 80px;
 }
@@ -99,18 +98,18 @@ nav{
     width: 10%;
     height: 100%;
     float: left;
-    /* debugger */
-    /* background-color: blue; */
     vertical-align: middle;
     text-align: center;
+}
+
+#logo{
+    vertical-align: middle;
 }
 
 .row_container{
     width: 90%;
     height: 100%;
     float: left;
-    /* debugger */
-    /* background-color: yellow; */
     vertical-align: middle;
 }
 
@@ -118,16 +117,14 @@ nav{
     width: 50%;
     height: 100%;
     float: left;
-    /* debugger */
-    /* background-color: aqua; */
+
 }
 
 .nav_right{
     width: 50%;
     height: 100%;
     float: right;
-    /* debugger */
-    /* background-color: blueviolet; */
+
 }
 
 .nav_space{
